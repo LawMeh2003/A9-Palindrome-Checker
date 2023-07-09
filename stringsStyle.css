@@ -1,0 +1,22 @@
+/* These are the body style elements*/
+body {
+    background-color: aquamarine;
+}
+/*modify the pic style, but does not seem to work*/
+#pic {
+    text-align: center;
+}
+/*mofidy the header style*/
+h1 {
+    text-align: center;
+}
+
+/*modify button design elements*/
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+

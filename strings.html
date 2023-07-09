@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+    Strings page for input validation assignment
+    Law Meh
+    18Jun23
+    lawmeh@uat.edu
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title for website-->
+    <title>Strings Page</title>
+    <link href="stringsStyle.css" rel="stylesheet" type="text/css">
+    <script src="code.js"></script>
+</head>
+<body>
+    <!--This is page header-->
+    <h1>Welcome to my Strings Page!</h1>
+    <center><img id="pic" src="Loginmeme.png"></center>
+    <br>
+    <!--Login start-->
+    Please Login Below<br>
+    <br>
+    <!--Shows status of login, why you fail-->
+    <div id="loginStatus">Status of Login</div>
+    <br>
+    <!--form for login-->
+    <form id="creditSumbit" onsubmit="return false">
+    First Name: <input type="text" id="fName"><br>
+    Last Name: <input type="text" id="lName"><br>
+    Zip Code: <input type="text" id="zipCode"><br>
+    <br>
+    <!--submit button for form-->
+    <input type="submit" onclick="checkCreds();" class="button">
+    </form>
+    <br>
+    <br>
+    <h1>Palinndrome Checker</h1>
+    <br>
+    <div id="palinStatus">Palindrome Status</div>
+    <br>
+    <br>
+    <form id="palinSubmit" onsubmit="return false">
+    Enter Possible Palindrome: <input type="text" id="palinInput"><br>
+    <input type="submit" onclick="checkPalin();" class="button">
+    </form>
+
+</body>
+</html>
